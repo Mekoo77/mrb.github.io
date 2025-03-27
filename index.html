@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgilim İçin Özel Sayfa</title>
+    <style>
+        /* Genel Sayfa Stili */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* Sayfa Başlığı */
+        h1 {
+            font-size: 3.5em;
+            color: #e74c3c;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            margin-top: 40px;
+        }
+
+        /* Alt Başlık */
+        h2 {
+            font-size: 2em;
+            color: #34495e;
+            margin-top: 20px;
+        }
+
+        /* Bağlantılar */
+        .links {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .link-button {
+            background-color: #f39c12;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .link-button:hover {
+            background-color: #f1c40f;
+            transform: scale(1.05);
+        }
+
+        /* Resim */
+        .image {
+            margin-top: 40px;
+            border-radius: 15px;
+            max-width: 80%;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+        }
+
+        /* Animasyonlu Kalp */
+        .heart {
+            font-size: 4em;
+            color: #e74c3c;
+            margin-top: 20px;
+            animation: heartbeat 1.5s infinite alternate;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        /* Mesajlar */
+        p {
+            font-size: 1.5em;
+            color: #2c3e50;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 10px 10px 0 0;
+        }
+
+        /* Sayfa İçeriği */
+        .content {
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Başlık ve Sevgiliye Mesaj -->
+    <h1>Sevgilim, Senin İçin</h1>
+    <h2>Hayatımda senin gibi birine sahip olmak, bir rüya gibi.</h2>
+    <div class="heart">❤️</div>
+
+    <!-- Sevgiliye Yönelik Mesajlar -->
+    <div class="content">
+        <p>Seninle olmak, her günü özel kılıyor. Gözlerindeki ışık, kalbimdeki sevgiyle birleşiyor. Her anı seninle paylaşmak, dünyadaki en güzel şey. 💖</p>
+        <p>Seninle hayat bir masal gibi, her şey mümkün. Her geçen gün seni daha çok seviyorum.</p>
+    </div>
+
+    <!-- Bağlantılar Bölümü -->
+    <div class="links">
+        <a href="#our-story" class="link-button">Hikayemiz</a>
+        <a href="#our-pictures" class="link-button">Fotoğraflarımız</a>
+        <a href="#love-quote" class="link-button">Aşk Sözleri</a>
+    </div>
+
+    <!-- Fotoğraf Bölümü -->
+    <div id="our-pictures">
+        <h2>Birlikte Paylaştığımız Anlar</h2>
+        <img src="indir.jfif" alt="Sevgilimle Fotoğraf" class="image">
+    </div>
+
+    <!-- Aşk Sözleri -->
+    <div id="love-quote">
+        <h2>Aşkı Tanımlayan Sözler</h2>
+        <p>"Aşk, iki kişinin birbirini bulması değil, birbirini yeniden keşfetmesidir." - Antoine de Saint-Exupéry</p>
+        <p>"Sevgi, birbirini görmekten çok, birbirini anlamaktır." - Carl Jung</p>
+    </div>
+
+    <!-- Hikayemiz -->
+    <div id="our-story">
+        <h2>Bizim Hikayemiz</h2>
+        <p>Bir tesadüf, bir bakış... İlk görüşte aşktı belki de. Ama seninle geçirdiğim her an, bana seni daha çok sevdiğimi hissettiriyor. Bizim hikayemiz, sonsuzluğa giden bir yolculuk gibi.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Sonsuza kadar seni seveceğim ❤️</p>
+    </footer>
+</body>
+</html>
